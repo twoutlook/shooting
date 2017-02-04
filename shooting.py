@@ -1,8 +1,8 @@
 import random
-print ("三个牛仔同一时间开枪，每个牛仔随机选择射击另外两个中的一个，\n问：这三个牛仔至少有一个毫发无损的概率多少？")
+print ("\n三个牛仔同一时间开枪，每个牛仔随机选择射击另外两个中的一个，\n问：这三个牛仔至少有一个毫发无损的概率多少？")
 
 ok=0
-timers=100000
+timers=100
 for timer in range (0,timers):
     s1 = random.randint(1,6)
     s2 = random.randint(1,6)
